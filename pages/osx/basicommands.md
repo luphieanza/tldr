@@ -1,4 +1,6 @@
-#basicommands
+# basicommands
+
+>Basic Commands in MacOS, who's beginner must know this
 
 ` ls -la `
 - The command to view the contents of a directory or folder including hidden files.
