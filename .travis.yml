@@ -1,4 +1,4 @@
-sudo: $(type -P npm) test
+sudo: $(which npm) test
 
 language: node_js
 
@@ -9,6 +9,9 @@ cache: false
 
 after_success:
 - bash scripts/build.sh
+
+after_failure:
+- cat test_result | python scripts/send_to_bot.py
 
 env:
   global:
