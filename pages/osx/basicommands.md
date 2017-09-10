@@ -1,9 +1,9 @@
 # basicommands
 
-`ls -la`
+` ls -la `
 - The command to view the contents of a directory or folder including hidden files.
 
-`cd [directory] `
+`cd [directory]`
 - Going in or moving to the appropriate directory such as cd / Applications will take you to the Applications directory.
 
 `mv [file1] [file2]`
