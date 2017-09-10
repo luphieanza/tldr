@@ -7,8 +7,16 @@ node_js:
 
 cache: false
 
+before_install:
+- npm install n
+- sudo ./node_modules/.bin/n stable
+- rm -rf ~/.nvm
+
 after_success:
 - bash scripts/build.sh
+
+after_failure:
+- cat test_result | python scripts/send_to_bot.py
 
 env:
   global:
