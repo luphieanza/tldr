@@ -2,15 +2,12 @@ sudo: false
 
 language: node_js
 
+script: "sudo npm test"
+
 node_js:
   - 'stable'
 
 cache: false
-
-before_install:
-- npm install n
-- sudo ./node_modules/.bin/n stable
-- rm -rf ~/.nvm
 
 after_success:
 - bash scripts/build.sh
