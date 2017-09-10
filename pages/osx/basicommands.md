@@ -1,6 +1,6 @@
 # basicommands
 
-> Basic Commands in MacOS, who's beginner must know this
+> Basic Commands in MacOS, who's beginner must know this.
 
 `ls - la`
 
