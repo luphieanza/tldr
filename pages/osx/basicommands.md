@@ -10,11 +10,11 @@
 
 `cd [directory]`
 
-- mv or elongation move will rename or move files depending on the usage:
+-Mv or elongation move will rename or move files depending on the usage:
 
 `mv [file1] [file2]`
 
-- Copying a file to another name or to another folder:
+- Copy a file to another name or to another folder:
 
 `cp [file] [direction]`
 
@@ -22,7 +22,7 @@
 
 `cat [file] | more `
 
-- Creating a file with the written name, for example touch image.txt will create a new text file with the image name:
+- Create a file with the written name, for example touch image.txt will create a new text file with the image name:
 
 `touch [file]`
 
@@ -30,11 +30,11 @@
 
 `top`
 
-- Displays a list of all the processes a user performs, -ux will display the user process running this command:
+- Display a list of all the processes a user performs, -ux will display the user process running this command:
 
 `ps -aux`
 
-- Turning off a specific process on the Process ID or PID is written, can use the 'Force Quit' command that is under the top left apple logo:
+- Turn off a specific process on the Process ID or PID is written, can use the 'Force Quit' command that is under the top left apple logo:
 
 `kill -9 [pid]`
 
