@@ -1,8 +1,8 @@
 # basicommands
 
->Basic Commands in MacOS, who's beginner must know this
+> Basic Commands in MacOS, who's beginner must know this
 
-` ls -la `
+`ls - la`
 - The command to view the contents of a directory or folder including hidden files.
 
 `cd [directory]`
@@ -23,7 +23,7 @@
 `top`
 - View all running computer processes, including memory and CPU usage, PID is a Process ID that can be called to stop the process when needed.
 
-`ps -aux`
+`ps - aux`
 - Displays a list of all the processes a user performs, -ux will display the user process running this command.
 
 `kill -9 [pid]`
