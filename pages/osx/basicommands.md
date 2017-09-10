@@ -10,7 +10,7 @@
 
 `cd [directory]`
 
--Mv or elongation move will rename or move files depending on the usage:
+- Mv or elongation move will rename or move files depending on the usage:
 
 `mv [file1] [file2]`
 
@@ -18,7 +18,7 @@
 
 `cp [file] [direction]`
 
-- Shows content from screen-by-screen file and sees more content with the 'more':
+- Show content from screen-by-screen file and sees more content with the 'more':
 
 `cat [file] | more `
 
