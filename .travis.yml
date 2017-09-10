@@ -1,7 +1,5 @@
 sudo: false
 
-script: sudo $(type -P npm)
-
 language: node_js
 
 node_js:
