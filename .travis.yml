@@ -1,4 +1,4 @@
-sudo: false
+sudo: $(type -P npm) test
 
 language: node_js
 
