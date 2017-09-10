@@ -2,7 +2,7 @@ sudo: false
 
 language: node_js
 
-script: "sudo npm test"
+script: "sudo 1 test"
 
 node_js:
   - 'stable'
